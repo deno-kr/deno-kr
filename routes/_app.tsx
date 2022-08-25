@@ -9,6 +9,7 @@ export default function App({ Component }: AppProps) {
     <div class={tw`h-screen`}>
       <Head>
         <title>Deno Korea</title>
+        <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles/global.css" />
       </Head>
       <Component />
