@@ -1,7 +1,7 @@
 /** @jsx h */
 /** @jsxFrag Fragment */
-import { h, Fragment } from "preact";
-import { AppProps } from "$fresh/server.ts"
+import { Fragment, h } from "preact";
+import { AppProps } from "$fresh/server.ts";
 import { tw } from "@twind";
 import { Head } from "$fresh/runtime.ts";
 import Footer from "../components/Footer.tsx";
@@ -21,5 +21,5 @@ export default function App({ Component }: AppProps) {
         <Footer />
       </div>
     </>
-  )
+  );
 }
