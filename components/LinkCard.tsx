@@ -2,14 +2,14 @@
 import { h } from "preact";
 import { tw } from "@twind";
 
-interface CardProps {
+interface LinkCardProps {
   icon: string;
   title: string;
   content: string;
   url: string;
 }
 
-export default function Card({ icon, title, content, url }: CardProps) {
+export default function LinkCard({ icon, title, content, url }: LinkCardProps) {
   return (
     <a href={url} class={tw`rounded bg-gray-200 w-full h-full p-4 m-4 grow flex flex-col transition-shadow hover:(shadow-xl)`}>
       <header class={tw`flex flex-row justify-start items-center`}>

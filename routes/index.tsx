@@ -2,7 +2,7 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import Logo from "../components/Logo.tsx";
-import Card from "../components/Card.tsx";
+import Card from "../components/LinkCard.tsx";
 
 export default function Home() {
   return (
