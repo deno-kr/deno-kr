@@ -6,7 +6,7 @@ export default function Logo() {
   return (
       <div class={tw`flex flex-row items-center justify-start w-1/3`}>
         <img src="/logo.png" class={tw`rounded w-10 h-10 m-4`} />
-        <h1 class={tw`text-xl font-bold`}>
+        <h1 class={tw`text-xl font-extrabold`}>
           Deno Korea
         </h1>
       </div>
