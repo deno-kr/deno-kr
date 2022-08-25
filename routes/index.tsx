@@ -40,7 +40,7 @@ export default function Home() {
         <a href="https://v8.dev/" class={tw`text-blue-400`}>
           V8
         </a>
-        로 실행하는 런타임입니다.
+        로 실행하는 간단하고 현대적이며 안전한 런타임입니다.
       </p>
       <div class={tw`w-max grid grid-cols-2 grid-flow-row gap-4 m-4`}>
         <LinkCard icon="/icons/deno_hr.svg" title="Deno" content="Deno 공식 홈페이지" url="https://deno.land" />
