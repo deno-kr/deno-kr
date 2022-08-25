@@ -35,5 +35,5 @@ export default function Banner() {
     console.log(banner);
   });
 
-  return (<div></div>);
+  return <div></div>;
 }
