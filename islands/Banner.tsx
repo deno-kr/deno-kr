@@ -1,3 +1,7 @@
+/** @jsx h */
+import { h } from "preact";
+import { useEffect } from "preact/hooks";
+
 const banner = `MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMWNX0OOOOO0KNWMMMMMMMMMMMMMM
 MMMMMMMMMMWXko:'....  ....;cxKWMMMMMMMMMM
@@ -24,7 +28,12 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 █      ▄█  █ █  █   █▄▄█▄█   █▄▄▄█ █▄█  █
 █     █▄█  █▄█  █    ▄▄  █    ▄▄▄█      █
 █    ▄  █       █   █  █ █   █▄▄▄█  ▄   █
-█▄▄▄█ █▄█▄▄▄▄▄▄▄█▄▄▄█  █▄█▄▄▄▄▄▄▄█▄█ █▄▄█
-`;
+█▄▄▄█ █▄█▄▄▄▄▄▄▄█▄▄▄█  █▄█▄▄▄▄▄▄▄█▄█ █▄▄█`;
 
-export default banner;
+export default function Banner() {
+  useEffect(() => {
+    console.log(banner);
+  });
+
+  return (<div></div>);
+}
