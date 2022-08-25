@@ -14,7 +14,7 @@ export default function App({ Component }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles/global.css" />
       </Head>
-      <div class={tw`flex flex-col min-h-screen`}>
+      <div class={tw`flex flex-col min-h-screen overflow-hidden`}>
         <div class={tw`flex-1`}>
           <Component />
         </div>
